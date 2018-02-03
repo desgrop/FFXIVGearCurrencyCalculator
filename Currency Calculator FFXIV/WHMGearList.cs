@@ -63,15 +63,25 @@ namespace Currency_Calculator_FFXIV
         RYUMYAKU_RING,
 
         //iLv370 Dai-Ryumyaku
-
+        [StringValue("Dai-Ryumyaku Hitai-Ate of Healing")]
         DAI_RYUMYAKU_HEAD,
+        [StringValue("Dai-Ryumyaku Dogi of Healing ")]
         DAI_RYUMYAKU_BODY,
+        [StringValue("Dai-Ryumyaku Kote of Healing")]
         DAI_RYUMYAKU_HANDS,
+        [StringValue("Dai-Ryumyaku Obi of Healing")]
+        DAI_RYUMYAKU_WAIST,
+        [StringValue("Dai-Ryumyaku Tsutsu-Hakama of Healing")]
         DAI_RYUMYAKU_LEGS,
+        [StringValue("Dai-Ryumyaku Choka of Healing")]
         DAI_RYUMYAKU_BOOTS,
+        [StringValue("Dai-Ryumyaku Earring of Healing")]
         DAI_RYUMYAKU_EARRINGS,
+        [StringValue("Dai-Ryumyaku Necklace of Healing")]
         DAI_RYUMYAKU_NECKLACE,
+        [StringValue("Dai-Ryumyaku Bracelet of Healing")]
         DAI_RYUMYAKU_BRACELET,
+        [StringValue("Dai-Ryumyaku Bracelet of Healing")]
         DAI_RYUMYAKU_RING,
 
         //iLv370 Diamond
