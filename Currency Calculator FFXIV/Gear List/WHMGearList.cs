@@ -1,4 +1,4 @@
-﻿namespace Currency_Calculator_FFXIV
+﻿namespace Currency_Calculator_FFXIV.Gear_List
 {
     public enum WhmGearList
     {
