@@ -17,8 +17,14 @@ namespace Currency_Calculator_FFXIV
         public MainWindow()
         {
             InitializeComponent();
-            PopulateGearList();
+            PopulateLists();
             discipleComboBox.DataSource = new List<string> { "Magic", "War" };
+        }
+
+        private void PopulateLists()
+        {
+            PopulateGearList();
+            PopulateItemLevelList();
         }
 
         private void PopulateGearList()
@@ -30,13 +36,29 @@ namespace Currency_Calculator_FFXIV
             };
         }
 
+        private void PopulateItemLevelList()
+        {
+            iLvComboBox.DataSource = new List<string> { "iLv 350", "iLv 360", "iLv 370" };
+        }
+
         private void DiscipleComboBox_SelectedValueChanged(object sender, EventArgs e)
         {
-            classLabel.Visible = true;
-            classComboBox.Visible = true;
             classComboBox.DataSource = discipleComboBox.SelectedItem.Equals("Magic")
                 ? new List<string> { "White Mage", "Scholar", "Astrologian" }
                 : new List<string> { "Warrior", "Paladin", "Monk", "Dragoon", "Bard", "Black Mage", "Summoner", "Ninja", "Dark Knight", "Machinist", "Red Mage", "Samurai" };
+        }
+
+        private void iLvComboBox_SelectedValueChanged(object sender, EventArgs e)
+        {
+            if (iLvComboBox.SelectedItem.Equals("iLv 370"))
+            {
+                gearSetOptionComboBox.Enabled = true;
+                gearSetOptionComboBox.DataSource = new List<string> { "Dai-Ryumyaku", "Diamond" };
+            }
+            else
+            {
+                gearSetOptionComboBox.Enabled = false;
+            }
         }
     }
 }
