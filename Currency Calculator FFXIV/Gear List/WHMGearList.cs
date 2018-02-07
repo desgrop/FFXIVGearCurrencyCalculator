@@ -100,34 +100,34 @@
 
         //iLv370 Diamond
 
-        [StringValue("Diamond Circlet of Healing")]
+        [StringValue("Diamond Circlet of Healing"), Price("6"), Currency("Sigmascape Datalog v2.0")]
         DIAMOND_HEAD = 30,
 
-        [StringValue("Diamond Robe of Healing")]
+        [StringValue("Diamond Robe of Healing"), Price("8"), Currency("Sigmascape Datalog v4.0")]
         DIAMOND_BODY = 31,
 
-        [StringValue("Diamond Gloves of Healing")]
+        [StringValue("Diamond Gloves of Healing"), Price("6"), Currency("Sigmascape Datalog v2.0")]
         DIAMOND_HANDS = 32,
 
-        [StringValue("Diamond Tassets of Healing")]
+        [StringValue("Diamond Tassets of Healing"), Price("6"), Currency("Sigmascape Datalog v1.0")]
         DIAMOND_WAIST = 33,
 
-        [StringValue("Diamond Trousers of Healing")]
+        [StringValue("Diamond Trousers of Healing"), Price("8"), Currency("Sigmascape Datalog v3.0")]
         DIAMOND_LEGS = 34,
 
-        [StringValue("Diamond Boots of Healing")]
+        [StringValue("Diamond Boots of Healing"), Price("6"), Currency("Sigmascape Datalog v2.0")]
         DIAMOND_BOOTS = 35,
 
-        [StringValue("Diamond Earring of Healing")]
+        [StringValue("Diamond Earring of Healing"), Price("4"), Currency("Sigmascape Datalog v1.0")]
         DIAMOND_EARRINGS = 36,
 
-        [StringValue("Diamond Necklace of Healing")]
+        [StringValue("Diamond Necklace of Healing"), Price("4"), Currency("Sigmascape Datalog v1.0")]
         DIAMOND_NECKLACE = 37,
 
-        [StringValue("Diamond Bracelet of Healing")]
+        [StringValue("Diamond Bracelet of Healing"), Price("4"), Currency("Sigmascape Datalog v1.0")]
         DIAMOND_BRACELET = 38,
 
-        [StringValue("Diamond Ring of Healing")]
+        [StringValue("Diamond Ring of Healing"), Price("4"), Currency("Sigmascape Datalog v1.0")]
         DIAMOND_RING = 39
     }
 }
