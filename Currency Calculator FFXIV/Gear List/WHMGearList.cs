@@ -4,34 +4,34 @@
     {
         //iLv350
 
-        [StringValue("Carborundum Circlet of Healing")]
+        [StringValue("Carborundum Circlet of Healing"), Price("2"), Currency("Sigmascape Lens")]
         CARBORUNDUM_HEAD = 0,
 
-        [StringValue("Carborundum Robe of Healing")]
+        [StringValue("Carborundum Robe of Healing"), Price("4"), Currency("Sigmascape Shaft")]
         CARBORUNDUM_BODY = 1,
 
-        [StringValue("Carborundum Gloves of Healing")]
+        [StringValue("Carborundum Gloves of Healing"), Price("2"), Currency("Sigmascape Crank")]
         CARBORUNDUM_HANDS = 2,
 
-        [StringValue("Carborundum Tassets of Healing")]
+        [StringValue("Carborundum Tassets of Healing"), Price("1"), Currency("Sigmascape Chain")]
         CARBORUNDUM_WAIST = 3,
 
-        [StringValue("Carborundum Trousers of Healing")]
+        [StringValue("Carborundum Trousers of Healing"), Price("4"), Currency("Sigmascape Spring")]
         CARBORUNDUM_LEGS = 4,
 
-        [StringValue("Carborundum Boots of Healing")]
+        [StringValue("Carborundum Boots of Healing"), Price("2"), Currency("Sigmascape Pedal")]
         CARBORUNDUM_BOOTS = 5,
 
-        [StringValue("Carborundum Earring of Healing")]
+        [StringValue("Carborundum Earring of Healing"), Price("1"), Currency("Sigmascape Bolt")]
         CARBORUNDUM_EARRINGS = 6,
 
-        [StringValue("Carborundum Necklace of Healing")]
+        [StringValue("Carborundum Necklace of Healing"), Price("1"), Currency("Sigmascape Bolt")]
         CARBORUNDUM_NECKLACE = 7,
 
-        [StringValue("Carborundum Bracelet of Healing")]
+        [StringValue("Carborundum Bracelet of Healing"), Price("1"), Currency("Sigmascape Bolt")]
         CARBORUNDUM_BRACELET = 8,
 
-        [StringValue("Carborundum Ring of Healing")]
+        [StringValue("Carborundum Ring of Healing"), Price("1"), Currency("Sigmascape Bolt")]
         CARBORUNDUM_RING = 9,
 
         //iLv360
