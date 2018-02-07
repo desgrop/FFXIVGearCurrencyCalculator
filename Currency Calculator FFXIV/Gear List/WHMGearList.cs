@@ -36,34 +36,34 @@
 
         //iLv360
 
-        [StringValue("Ryumyaku Hitai-Ate of Healing")]
+        [StringValue("Ryumyaku Hitai-Ate of Healing"), Price("495"), Currency("Mendacity")]
         RYUMYAKU_HEAD = 10,
 
-        [StringValue("Ryumyaku Dogi of Healing")]
+        [StringValue("Ryumyaku Dogi of Healing"), Price("825"), Currency("Mendacity")]
         RYUMYKAU_BODY = 11,
 
-        [StringValue("Ryumyaku Kote of Healing")]
+        [StringValue("Ryumyaku Kote of Healing"), Price("495"), Currency("Mendacity")]
         RYUMYAKU_HANDS = 12,
 
-        [StringValue("Ryumyaku Obi of Healing")]
+        [StringValue("Ryumyaku Obi of Healing"), Price("375"), Currency("Mendacity")]
         RYUMYAKU_WAIST = 13,
 
-        [StringValue("Ryumyaku Tsutsu-Hakama of Healing")]
+        [StringValue("Ryumyaku Tsutsu-Hakama of Healing"), Price("825"), Currency("Mendacity")]
         RYUMYAKU_LEGS = 14,
 
-        [StringValue("Ryumyaku Choka of Healing")]
+        [StringValue("Ryumyaku Choka of Healing"), Price("495"), Currency("Mendacity")]
         RYUMYAKU_BOOTS = 15,
 
-        [StringValue("Ryumyaku Earring of Healing")]
+        [StringValue("Ryumyaku Earring of Healing"), Price("375"), Currency("Mendacity")]
         RYUMYAKU_EARRINGS = 16,
 
-        [StringValue("Ryumyaku Necklace of Healing")]
+        [StringValue("Ryumyaku Necklace of Healing"), Price("375"), Currency("Mendacity")]
         RYUMYAKU_NECKLACE = 17,
 
-        [StringValue("Ryumyaku Bracelet of Healing")]
+        [StringValue("Ryumyaku Bracelet of Healing"), Price("375"), Currency("Mendacity")]
         RYUMYAKU_BRACELET = 18,
 
-        [StringValue("Ryumyaku Ring of Healing")]
+        [StringValue("Ryumyaku Ring of Healing"), Price("375"), Currency("Mendacity")]
         RYUMYAKU_RING = 19,
 
         //iLv370 Dai-Ryumyaku
