@@ -68,34 +68,34 @@
 
         //iLv370 Dai-Ryumyaku
 
-        [StringValue("Dai-Ryumyaku Hitai-Ate of Healing")]
+        [StringValue("Dai-Ryumyaku Hitai-Ate of Healing"), Price("1"), Currency("Ryumyaku Weave")]
         DAI_RYUMYAKU_HEAD = 20,
 
-        [StringValue("Dai-Ryumyaku Dogi of Healing ")]
+        [StringValue("Dai-Ryumyaku Dogi of Healing "), Price("1"), Currency("Ryumyaku Weave")]
         DAI_RYUMYAKU_BODY = 21,
 
-        [StringValue("Dai-Ryumyaku Kote of Healing")]
+        [StringValue("Dai-Ryumyaku Kote of Healing"), Price("1"), Currency("Ryumyaku Weave")]
         DAI_RYUMYAKU_HANDS = 22,
 
-        [StringValue("Dai-Ryumyaku Obi of Healing")]
+        [StringValue("Dai-Ryumyaku Obi of Healing"), Price("1"), Currency("Ryumyaku Polish")]
         DAI_RYUMYAKU_WAIST = 23,
 
-        [StringValue("Dai-Ryumyaku Tsutsu-Hakama of Healing")]
+        [StringValue("Dai-Ryumyaku Tsutsu-Hakama of Healing"), Price("1"), Currency("Ryumyaku Weave")]
         DAI_RYUMYAKU_LEGS = 24,
 
-        [StringValue("Dai-Ryumyaku Choka of Healing")]
+        [StringValue("Dai-Ryumyaku Choka of Healing"), Price("1"), Currency("Ryumyaku Weave")]
         DAI_RYUMYAKU_BOOTS = 25,
 
-        [StringValue("Dai-Ryumyaku Earring of Healing")]
+        [StringValue("Dai-Ryumyaku Earring of Healing"), Price("1"), Currency("Ryumyaku Polish")]
         DAI_RYUMYAKU_EARRINGS = 26,
 
-        [StringValue("Dai-Ryumyaku Necklace of Healing")]
+        [StringValue("Dai-Ryumyaku Necklace of Healing"), Price("1"), Currency("Ryumyaku Polish")]
         DAI_RYUMYAKU_NECKLACE = 27,
 
-        [StringValue("Dai-Ryumyaku Bracelet of Healing")]
+        [StringValue("Dai-Ryumyaku Bracelet of Healing"), Price("1"), Currency("Ryumyaku Polish")]
         DAI_RYUMYAKU_BRACELET = 28,
 
-        [StringValue("Dai-Ryumyaku Bracelet of Healing")]
+        [StringValue("Dai-Ryumyaku Bracelet of Healing"), Price("1"), Currency("Ryumyaku Polish")]
         DAI_RYUMYAKU_RING = 29,
 
         //iLv370 Diamond
