@@ -36,6 +36,7 @@
             this.iLvComboBox = new System.Windows.Forms.ComboBox();
             this.gearSetOptionLabel = new System.Windows.Forms.Label();
             this.gearSetOptionComboBox = new System.Windows.Forms.ComboBox();
+            this.totalCostGroupBox = new System.Windows.Forms.GroupBox();
             this.SuspendLayout();
             // 
             // discipleComboBox
@@ -43,7 +44,7 @@
             this.discipleComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.discipleComboBox.Location = new System.Drawing.Point(13, 29);
             this.discipleComboBox.Name = "discipleComboBox";
-            this.discipleComboBox.Size = new System.Drawing.Size(121, 21);
+            this.discipleComboBox.Size = new System.Drawing.Size(152, 21);
             this.discipleComboBox.TabIndex = 0;
             this.discipleComboBox.SelectedValueChanged += new System.EventHandler(this.DiscipleComboBox_SelectedValueChanged);
             // 
@@ -71,7 +72,7 @@
             this.classComboBox.FormattingEnabled = true;
             this.classComboBox.Location = new System.Drawing.Point(13, 79);
             this.classComboBox.Name = "classComboBox";
-            this.classComboBox.Size = new System.Drawing.Size(121, 21);
+            this.classComboBox.Size = new System.Drawing.Size(152, 21);
             this.classComboBox.TabIndex = 3;
             // 
             // iLvLabel
@@ -89,7 +90,7 @@
             this.iLvComboBox.FormattingEnabled = true;
             this.iLvComboBox.Location = new System.Drawing.Point(13, 132);
             this.iLvComboBox.Name = "iLvComboBox";
-            this.iLvComboBox.Size = new System.Drawing.Size(121, 21);
+            this.iLvComboBox.Size = new System.Drawing.Size(152, 21);
             this.iLvComboBox.TabIndex = 5;
             this.iLvComboBox.SelectedValueChanged += new System.EventHandler(this.iLvComboBox_SelectedValueChanged);
             // 
@@ -109,14 +110,25 @@
             this.gearSetOptionComboBox.FormattingEnabled = true;
             this.gearSetOptionComboBox.Location = new System.Drawing.Point(13, 183);
             this.gearSetOptionComboBox.Name = "gearSetOptionComboBox";
-            this.gearSetOptionComboBox.Size = new System.Drawing.Size(121, 21);
+            this.gearSetOptionComboBox.Size = new System.Drawing.Size(152, 21);
             this.gearSetOptionComboBox.TabIndex = 7;
+            // 
+            // totalCostGroupBox
+            // 
+            this.totalCostGroupBox.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.totalCostGroupBox.Location = new System.Drawing.Point(12, 227);
+            this.totalCostGroupBox.Name = "totalCostGroupBox";
+            this.totalCostGroupBox.Size = new System.Drawing.Size(153, 100);
+            this.totalCostGroupBox.TabIndex = 9;
+            this.totalCostGroupBox.TabStop = false;
+            this.totalCostGroupBox.Text = "Total Cost ";
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 287);
+            this.ClientSize = new System.Drawing.Size(464, 437);
+            this.Controls.Add(this.totalCostGroupBox);
             this.Controls.Add(this.gearSetOptionComboBox);
             this.Controls.Add(this.gearSetOptionLabel);
             this.Controls.Add(this.iLvComboBox);
@@ -143,6 +155,7 @@
         private System.Windows.Forms.ComboBox iLvComboBox;
         private System.Windows.Forms.Label gearSetOptionLabel;
         private System.Windows.Forms.ComboBox gearSetOptionComboBox;
+        private System.Windows.Forms.GroupBox totalCostGroupBox;
     }
 }
 
