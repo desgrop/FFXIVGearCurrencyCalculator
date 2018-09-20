@@ -1,6 +1,6 @@
 ﻿namespace Currency_Calculator_FFXIV.User_Controls
 {
-    partial class GearSelectedUserControl
+    partial class GearSelectionUserControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,8 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // GearSelectionUserControl
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Name = "GearSelectionUserControl";
+            this.Size = new System.Drawing.Size(237, 40);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

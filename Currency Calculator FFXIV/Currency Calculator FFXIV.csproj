@@ -63,11 +63,11 @@
     <Compile Include="User Controls\CurrencyPriceUserControl.Designer.cs">
       <DependentUpon>CurrencyPriceUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="User Controls\GearSelectedUserControl.cs">
+    <Compile Include="User Controls\GearSelectionUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="User Controls\GearSelectedUserControl.Designer.cs">
-      <DependentUpon>GearSelectedUserControl.cs</DependentUpon>
+    <Compile Include="User Controls\GearSelectionUserControl.Designer.cs">
+      <DependentUpon>GearSelectionUserControl.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -83,6 +83,9 @@
     </Compile>
     <EmbeddedResource Include="User Controls\CurrencyPriceUserControl.resx">
       <DependentUpon>CurrencyPriceUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\GearSelectionUserControl.resx">
+      <DependentUpon>GearSelectionUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -37,6 +37,7 @@
             this.gearSetOptionLabel = new System.Windows.Forms.Label();
             this.gearSetOptionComboBox = new System.Windows.Forms.ComboBox();
             this.totalCostGroupBox = new System.Windows.Forms.GroupBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // discipleComboBox
@@ -118,16 +119,26 @@
             this.totalCostGroupBox.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.totalCostGroupBox.Location = new System.Drawing.Point(12, 227);
             this.totalCostGroupBox.Name = "totalCostGroupBox";
-            this.totalCostGroupBox.Size = new System.Drawing.Size(153, 100);
+            this.totalCostGroupBox.Size = new System.Drawing.Size(153, 198);
             this.totalCostGroupBox.TabIndex = 9;
             this.totalCostGroupBox.TabStop = false;
             this.totalCostGroupBox.Text = "Total Cost ";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Location = new System.Drawing.Point(213, 29);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(230, 396);
+            this.panel1.TabIndex = 10;
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(464, 437);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.totalCostGroupBox);
             this.Controls.Add(this.gearSetOptionComboBox);
             this.Controls.Add(this.gearSetOptionLabel);
@@ -156,6 +167,7 @@
         private System.Windows.Forms.Label gearSetOptionLabel;
         private System.Windows.Forms.ComboBox gearSetOptionComboBox;
         private System.Windows.Forms.GroupBox totalCostGroupBox;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

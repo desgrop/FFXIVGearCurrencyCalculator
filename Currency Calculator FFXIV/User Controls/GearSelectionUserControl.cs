@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Currency_Calculator_FFXIV.User_Controls
 {
-    public partial class GearSelectedUserControl : UserControl
+    public partial class GearSelectionUserControl : UserControl
     {
-        public GearSelectedUserControl()
+        public GearSelectionUserControl()
         {
             InitializeComponent();
         }
